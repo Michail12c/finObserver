@@ -1,7 +1,9 @@
 import './App.css';
+import { QueryClientProvider, QueryClient } from 'react-query';
 
 function App(): JSX.Element {
-  return <div className="bg-slate-100 w-full h-[250px]">Finobserve</div>;
+  const queryClient = new QueryClient();
+  return <QueryClientProvider client={queryClient}></QueryClientProvider>;
 }
 
 export default App;
