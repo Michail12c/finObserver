@@ -2,7 +2,8 @@ import React, { createContext, useContext, useState } from 'react';
 import { IAppContext } from '../interfaces/IAppContext';
 
 const AppContext = createContext<IAppContext>({
-  user: null
+  user: null,
+  setUser: Function
 });
 
 export function useAppContext(): IAppContext {

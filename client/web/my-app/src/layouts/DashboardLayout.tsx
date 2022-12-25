@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Funds from '../pages/funds';
 
-function DashboardLayout() {
+function DashboardLayout(): JSX.Element {
   const loading = false;
   return (
     <div>

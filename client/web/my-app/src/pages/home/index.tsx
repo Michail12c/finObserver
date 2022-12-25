@@ -1,5 +1,7 @@
+import HomeLayout from '../../layouts/HomeLayout';
+
 function Home(): JSX.Element {
-  return <div>Home</div>;
+  return <HomeLayout>Home</HomeLayout>;
 }
 
 export default Home;
